@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Smash Bros";
+    src: url('../images/supersmashfont.ttf');
+}
+
+#title-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#title-image-smash {
+    max-width: 400px;
+}
+
+body {
+    background-color: #eee;
+    padding-top: 20px;
+    font-family: "Smash Bros";
+    color: white;
+    text-shadow: 0 0 2px black, -1px -1px 2px black, 1px 0 2px black, 1px 1px 2px black;
+    background: url('../images/16429-smash-bros-wallpaper.png') no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+h3, h5 {
+    padding: 5px;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+.play {
+    padding-top: 20px;
+    border: 3px dashed blue;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+}
+
+#gameover-image, #youwin-image {
+    display: none;
+}
